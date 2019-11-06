@@ -17,7 +17,10 @@ package lesson02.part01;
 
 public class Task12 {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        String[] s ={ "Мама","Мыла", "Раму"};
+        for (String ss : s) {
+            System.out.println(ss + ss + ss);
+        }
 
     }
 }

@@ -19,7 +19,8 @@ public class Task15 {
     public static int number = 25;
 
     public static void main(String[] args) {
-        //Измените код
+        number = number * number;
+        System.out.println(number);
         System.out.println(Math.cos(number));
     }
 }

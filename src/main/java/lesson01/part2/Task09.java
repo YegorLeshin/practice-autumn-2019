@@ -1,5 +1,8 @@
 package lesson01.part2;
 
+import lesson02.cw.loop.Do;
+import sun.awt.windows.WWindowPeer;
+
 public class Task09 {
 
     /**
@@ -16,7 +19,10 @@ public class Task09 {
      */
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        Cat cat = new Cat() {Woman owner;};
+        Dog dog = new Dog() {Woman owner;};
+        Fish fish = new Fish() {Woman owner;};
+        Woman  woman = new Woman();
     }
 
     public static class Cat {

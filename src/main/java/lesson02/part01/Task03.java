@@ -1,5 +1,7 @@
 package lesson02.part01;
 
+import java.sql.SQLOutput;
+
 /**
  * Напиши код метода convertEurToUsd, который переводит евро в доллары по заданному курсу.
  * Для возврата результата из метода convertEurToUsd используй оператор return. Пример: return 123*435;
@@ -17,12 +19,13 @@ package lesson02.part01;
 
 public class Task03 {
     public static void main(String[] args) {
-        //напишите тут ваш код
+        System.out.println(convertEurToUsd(35, 34));
+        System.out.println(convertEurToUsd(63, 5));
 
     }
 
     public static double convertEurToUsd(int eur, double course) {
-        //напишите тут ваш код
-        return 0d;
+        double s = eur * course;
+        return s;
     }
 }

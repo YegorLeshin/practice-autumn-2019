@@ -21,7 +21,14 @@ import java.util.*;
 
 public class Task17 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        InputStream inputStream = System.in;
+        Reader inputStreamReader = new InputStreamReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        String name = bufferedReader.readLine(); //читаем строку с клавиатуры
+        String sAge = bufferedReader.readLine(); //читаем строку с клавиатуры
+        int age = Integer.parseInt(sAge);       //преобразовываем строку в число
+
+        System.out.println(name + " захватит мир через "+ age +" лет. Му-ха-ха!");
 
     }
 }

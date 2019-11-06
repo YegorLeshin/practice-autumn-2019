@@ -26,9 +26,27 @@ package lesson02.part02;
 import java.io.*;
 import java.util.*;
 
-public class Task26 {
+public class    Task26 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
+        int a = Integer.parseInt(reader.readLine());
+
+        boolean b = a > 0;
+        boolean c = a % 2 == 0;
+
+        if (a == 0)
+            System.out.println("ноль");
+        else {
+            if (b)
+                System.out.print("положительное ");
+            else
+                System.out.print("отрицательное ");
+
+            if (c)
+                System.out.print("четное число");
+            else
+                System.out.print("нечетное число");
+        }
     }
 }

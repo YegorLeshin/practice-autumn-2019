@@ -13,11 +13,18 @@ package lesson02.part02;
  * 4.	Если введенное число отрицательное, необходимо увеличить его на единицу и вывести.
  * 5.	Если введенное число равно нулю, необходимо вывести ноль.
  */
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 public class Task12 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int number = Integer.parseInt(reader.readLine());
+
+        System.out.println(number > 0 ? number*2 : number < 0 ? number+1 : number);
 
     }
 
+
+
 }
+

@@ -20,7 +20,16 @@ import java.util.*;
 
 public class Task18 {
     public static void main(String[] args) throws Exception {
-        //напишите тут ваш код
+        InputStream inputStream1 = System.in;
+        Reader inputStreamReader = new InputStreamReader(inputStream1);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        String name = bufferedReader.readLine(); //читаем строку с клавиатуры
+        String sAge1 = bufferedReader.readLine(); //читаем строку с клавиатуры
+        String sAge2 = bufferedReader.readLine(); //читаем строку с клавиатуры
+        int age1 = Integer.parseInt(sAge1);       //преобразовываем строку в число
+        int age2 = Integer.parseInt(sAge2);       //преобразовываем строку в число
+
+        System.out.println(name + " получает " + age1 + " через " + age2 + " лет.");
 
     }
 }
