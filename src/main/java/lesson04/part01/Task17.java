@@ -20,6 +20,7 @@ import java.io.InputStreamReader;
 public class Task17 {
   public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+<<<<<<< HEAD
     int[] arr = new int[20];
     for (int i = 0; i < 20; i++)
       arr[i] = Integer.parseInt(reader.readLine());
@@ -34,6 +35,13 @@ public class Task17 {
       if (arr[i] < minimum)
         minimum = arr[i];
     }
+=======
+
+    int maximum = 0;
+    int minimum = 0;
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
     System.out.print(maximum + " " + minimum);
   }

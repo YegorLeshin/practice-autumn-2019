@@ -1,9 +1,12 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * Введи с клавиатуры 5 слов в список строк. Удали 3 - ий элемент списка,
  * и выведи оставшиеся элементы в обратном порядке.
@@ -18,6 +21,7 @@ import java.util.ArrayList;
 
 public class Task10 {
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     ArrayList<String> list = new ArrayList<String>();
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -28,5 +32,8 @@ public class Task10 {
 
     for (int i = list.size() - 1; i > -1; i--)
       System.out.println(list.get(i));
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

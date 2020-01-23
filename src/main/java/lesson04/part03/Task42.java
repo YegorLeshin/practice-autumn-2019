@@ -18,11 +18,20 @@ import java.util.ArrayList;
 public class Task42 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     try {
       ArrayList<String> list = new ArrayList<String>();
       String s = list.get(18);
     } catch (IndexOutOfBoundsException e) {
       System.out.println(e);
     }
+=======
+    //напишите тут ваш код
+
+    ArrayList<String> list = new ArrayList<String>();
+    String s = list.get(18);
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

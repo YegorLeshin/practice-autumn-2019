@@ -19,6 +19,7 @@ import java.util.HashMap;
 public class Task43 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     try {
       HashMap<String, String> map = new HashMap<String, String>(null);
       map.put(null, null);
@@ -26,5 +27,14 @@ public class Task43 {
     } catch (NullPointerException e) {
       System.out.println(e);
     }
+=======
+    //напишите тут ваш код
+
+    HashMap<String, String> map = new HashMap<String, String>(null);
+    map.put(null, null);
+    map.remove(null);
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

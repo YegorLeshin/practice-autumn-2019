@@ -1,9 +1,12 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * 1. Создай список строк в методе main.
  * 2. Добавь в него 10 строчек с клавиатуры, но только добавлять не в конец списка, а в начало.
@@ -19,6 +22,7 @@ import java.util.ArrayList;
 public class Task08 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     ArrayList<String> list = new ArrayList<String>();
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,5 +33,8 @@ public class Task08 {
     for (int i = 0; i < 10; i++) {
       System.out.println(list.get(i));
     }
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

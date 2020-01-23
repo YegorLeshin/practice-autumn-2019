@@ -20,25 +20,45 @@ public class Task37 {
 
   public static int method1() {
     method2();
+<<<<<<< HEAD
     return  Thread.currentThread().getStackTrace()[2].getLineNumber();
+=======
+    return  /*напишите тут ваш код*/ 0;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static int method2() {
     method3();
+<<<<<<< HEAD
     return  Thread.currentThread().getStackTrace()[2].getLineNumber();
+=======
+    return  /*напишите тут ваш код*/ 0;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static int method3() {
     method4();
+<<<<<<< HEAD
     return  Thread.currentThread().getStackTrace()[2].getLineNumber();
+=======
+    return  /*напишите тут ваш код*/ 0;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static int method4() {
     method5();
+<<<<<<< HEAD
     return  Thread.currentThread().getStackTrace()[2].getLineNumber();
   }
 
   public static int method5() {
     return  Thread.currentThread().getStackTrace()[2].getLineNumber();
+=======
+    return  /*напишите тут ваш код*/ 0;
+  }
+
+  public static int method5() {
+    return  /*напишите тут ваш код*/ 0;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

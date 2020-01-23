@@ -1,8 +1,11 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * 1. Создать массив на 10 строк.
  * 2. Ввести с клавиатуры 8 строк и сохранить их в массив.
@@ -19,6 +22,7 @@ import java.io.InputStreamReader;
 public class Task02 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     String[] list = new String[10];
 
@@ -27,5 +31,8 @@ public class Task02 {
 
     for (int i = 9; i > -1; i--)
       System.out.println(list[i]);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

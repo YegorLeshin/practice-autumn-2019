@@ -1,8 +1,11 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * 1. Создать массив на 10 строк.
  * 2. Создать массив на 10 чисел.
@@ -23,6 +26,7 @@ import java.io.InputStreamReader;
 public class Task03 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     String[] listString = new String[10];
     int[] listInt = new int[10];
@@ -34,5 +38,8 @@ public class Task03 {
       listInt[i] = listString[i].length();
       System.out.println(listInt[i]);
     }
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

@@ -1,8 +1,12 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+=======
+import java.io.IOException;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
 /**
  * 1. В методе initializeArray():
@@ -26,6 +30,7 @@ public class Task01 {
   }
 
   public static int[] initializeArray() throws IOException {
+<<<<<<< HEAD
     int[] list = new int[20];
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -41,5 +46,14 @@ public class Task01 {
       if (max < array[i])
         max = array[i];
     return max;
+=======
+    // создай и заполни массив
+    return null;
+  }
+
+  public static int max(int[] array) {
+    // найди максимальное значение
+    return 0;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

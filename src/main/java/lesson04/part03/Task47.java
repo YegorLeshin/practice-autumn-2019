@@ -29,6 +29,7 @@ import java.nio.file.FileSystemException;
  * 7.	Метод main должен логировать исключения, которые кидает метод handleExceptions.
  */
 
+<<<<<<< HEAD
 
 public class Task47 {
   public static StatelessBean BEAN = new StatelessBean();
@@ -55,6 +56,21 @@ public class Task47 {
       BEAN.log(e);
     }
   }
+=======
+public class Task47 {
+
+  public static StatelessBean BEAN = new StatelessBean();
+
+  public static void main(String[] args) {
+    handleExceptions();
+  }
+
+  public static void handleExceptions() {
+    // Раскомментируй
+//    BEAN.methodThrowExceptions();
+  }
+
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   public static class StatelessBean {
     public void log(Exception exception) {
       System.out.println(exception.getMessage() + ", " + exception.getClass().getSimpleName());

@@ -37,26 +37,42 @@ public class Task28 {
   }
 
   public static void insert10000(List list) {
+<<<<<<< HEAD
     for (int i = 0; i < 10000; i ++)
       list.add(2);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 
   public static void get10000(List list) {
+<<<<<<< HEAD
     for (int i = 0; i < 10000; i++)
       list.get(i);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 
   public static void set10000(List list) {
+<<<<<<< HEAD
     for (int i = 0; i < 10000; i++)
       list.set(i, 5);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 
   public static void remove10000(List list) {
+<<<<<<< HEAD
     for (int i = 9999; i > -1; i--)
       list.remove(i);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 }

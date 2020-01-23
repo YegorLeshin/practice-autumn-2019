@@ -1,6 +1,9 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashMap;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.Map;
 
 /**
@@ -34,6 +37,7 @@ public class Task23 {
 
 
   public static Map<String, Cat> addCatsToMap(String[] cats) {
+<<<<<<< HEAD
     Map<String, Cat> map = new HashMap<String, Cat>();
 
     for (String str: cats) {
@@ -41,6 +45,10 @@ public class Task23 {
     }
 
     return map;
+=======
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
 

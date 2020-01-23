@@ -1,7 +1,10 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Iterator;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.Map;
 
 /**
@@ -18,6 +21,7 @@ import java.util.Map;
 public class Task34 {
 
   public static Map<String, Integer> createMap() {
+<<<<<<< HEAD
     Map<String, Integer> map = new HashMap<>();
     map.put("1", 1);
     map.put("2", 3000);
@@ -45,6 +49,14 @@ public class Task34 {
       if (n < 500)
         iterator.remove();
     }
+=======
+    //напишите тут ваш код
+    return null;
+  }
+
+  public static void removeItemFromMap(Map<String, Integer> map) {
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static void main(String[] args) {

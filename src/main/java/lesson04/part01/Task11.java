@@ -1,7 +1,10 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.ArrayList;
 
 /**
@@ -24,6 +27,7 @@ import java.util.ArrayList;
 
 public class Task11 {
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     ArrayList<Integer> listMain = new ArrayList<Integer>();
     ArrayList<Integer> listOdd = new ArrayList<Integer>();
     ArrayList<Integer> listEven = new ArrayList<Integer>();
@@ -52,5 +56,12 @@ public class Task11 {
   public static void printList(ArrayList<Integer> list) {
     for (int i = 0; i < list.size(); i++)
       System.out.println(list.get(i));
+=======
+    //напишите тут ваш код
+  }
+
+  public static void printList(ArrayList<Integer> list) {
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

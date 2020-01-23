@@ -1,8 +1,11 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashSet;
 import java.util.Set;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * Создать коллекцию Set (реализация HashSet) с типом элементов String.
  * Добавить в неё 10 строк:
@@ -29,6 +32,7 @@ import java.util.Set;
 
 public class Task21 {
   public static void main(String[] args) {
+<<<<<<< HEAD
     Set<String> set = new HashSet<String>();
     set.add("арбуз");
     set.add("банан");
@@ -43,6 +47,9 @@ public class Task21 {
 
     for (String text: set)
       System.out.println(text);
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 }

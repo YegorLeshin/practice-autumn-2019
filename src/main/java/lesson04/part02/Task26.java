@@ -32,8 +32,12 @@ public class Task26 {
     map.put("Hugs", 111111111111L);
     map.put("Comp", (double) 123);
 
+<<<<<<< HEAD
     for (Map.Entry<String, Object> pair: map.entrySet())
       System.out.println(pair.getKey() + " - " + pair.getValue());
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 }

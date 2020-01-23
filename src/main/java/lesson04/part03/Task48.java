@@ -20,6 +20,7 @@ public class Task48 {
   public static void main(String[] args) {
   }
 
+<<<<<<< HEAD
   static class MyException extends ArrayStoreException {
   }
 
@@ -30,5 +31,17 @@ public class Task48 {
   }
 
   static class MyException4 extends NoSuchFieldException{
+=======
+  static class MyException {
+  }
+
+  static class MyException2 {
+  }
+
+  static class MyException3 {
+  }
+
+  static class MyException4 {
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

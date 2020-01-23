@@ -1,8 +1,12 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+=======
+import java.io.IOException;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
 /**
  * 1. Создать массив на 15 целых чисел.
@@ -28,6 +32,7 @@ import java.io.InputStreamReader;
 public class Task05 {
 
   public static void main(String[] args) throws IOException {
+<<<<<<< HEAD
     int sumchet = 0;
     int sumnechet = 0;
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -48,5 +53,8 @@ public class Task05 {
       System.out.println("В домах с четными номерами проживает больше жителей.");
     else
       System.out.println("В домах с нечетными номерами проживает больше жителей.");
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

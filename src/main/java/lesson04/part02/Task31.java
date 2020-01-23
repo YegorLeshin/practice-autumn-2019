@@ -1,7 +1,10 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.LinkedList;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.List;
 
 /**
@@ -22,6 +25,7 @@ import java.util.List;
 public class Task31 {
 
   public static List getListForGet() {
+<<<<<<< HEAD
     ArrayList list = new ArrayList();
 
     return list;
@@ -47,6 +51,25 @@ public class Task31 {
     return list;
 
 
+=======
+    //напишите тут ваш код
+    return null;
+  }
+
+  public static List getListForSet() {
+    //напишите тут ваш код
+    return null;
+  }
+
+  public static List getListForAddOrInsert() {
+    //напишите тут ваш код
+    return null;
+  }
+
+  public static List getListForRemove() {
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static void main(String[] args) {

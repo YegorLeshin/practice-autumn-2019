@@ -44,6 +44,7 @@ public class Task13 {
   }
 
   public static ArrayList<String> fix(ArrayList<String> strings) {
+<<<<<<< HEAD
     for (int i = 0; i < strings.size(); i++) {
       if (strings.get(i).contains("р") && !strings.get(i).contains("л")) {
         strings.remove(i);
@@ -57,5 +58,9 @@ public class Task13 {
     }
 
     return strings;
+=======
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

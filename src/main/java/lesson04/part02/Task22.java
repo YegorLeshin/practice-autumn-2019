@@ -1,8 +1,11 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * Создать коллекцию Map<String, String> (реализация HashMap), занести туда 10 пар строк:
  * арбуз - ягода,
@@ -30,6 +33,7 @@ import java.util.Map;
 public class Task22 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     Map<String, String> map = new HashMap<String, String>();
     map.put("арбуз", "ягода");
     map.put("банан", "трава");
@@ -44,5 +48,8 @@ public class Task22 {
 
     for (Map.Entry<String, String> text: map.entrySet())
       System.out.println(text.getKey() + " - " + text.getValue());
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

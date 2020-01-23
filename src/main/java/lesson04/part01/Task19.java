@@ -22,11 +22,19 @@ package lesson04.part01;
 
 public class Task19 {
 
+<<<<<<< HEAD
   public static void main(String[] args) throws InterruptedException{
     for (int i = 30; i >= 0; i--) {
       System.out.println(i);
 
       Thread.sleep(100);
+=======
+  public static void main(String[] args) {
+    for (int i = 30; i >= 0; i--) {
+      System.out.println(i);
+
+      //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
     }
 
     System.out.println("Бум!");

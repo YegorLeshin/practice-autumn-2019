@@ -1,8 +1,11 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * 1. Создать массив на 10 чисел.
  * 2. Ввести с клавиатуры 10 чисел и записать их в массив.
@@ -18,6 +21,7 @@ import java.io.InputStreamReader;
 public class Task04 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     int[] list = new int[10];
     for (int i = 0; i < 10; i++) {
@@ -26,5 +30,8 @@ public class Task04 {
     for (int i = 9; i > -1; i--) {
       System.out.println(list[i]);
     }
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

@@ -31,6 +31,7 @@ public class Task20 {
   }
 
   public static void sort(int[] array) {
+<<<<<<< HEAD
     boolean isSorted = false;
     int buf;
     while(!isSorted) {
@@ -45,5 +46,8 @@ public class Task20 {
         }
       }
     }
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

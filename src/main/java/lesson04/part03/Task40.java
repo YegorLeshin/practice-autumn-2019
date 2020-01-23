@@ -17,11 +17,20 @@ package lesson04.part03;
 public class Task40 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     try {
       String s = null;
       String m = s.toLowerCase();
     } catch (NullPointerException e) {
       System.out.println(e);
     }
+=======
+    //напишите тут ваш код
+
+    String s = null;
+    String m = s.toLowerCase();
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

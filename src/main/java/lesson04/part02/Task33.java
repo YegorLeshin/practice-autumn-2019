@@ -1,7 +1,10 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashSet;
 import java.util.Iterator;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.Set;
 
 /**
@@ -27,15 +30,20 @@ public class Task33 {
   public static void main(String[] args) {
     Set<Cat> cats = createCats();
 
+<<<<<<< HEAD
     for (Cat cat : cats) {
       cats.remove(cat);
       break;
     }
+=======
+    //напишите тут ваш код. step 2 - пункт 2
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
     printCats(cats);
   }
 
   public static Set<Cat> createCats() {
+<<<<<<< HEAD
     Set<Cat> cats = new HashSet<>();
     cats.add(new Cat());
     cats.add(new Cat());
@@ -50,6 +58,14 @@ public class Task33 {
     while (iterator.hasNext()) {
       System.out.println(iterator.next());
     }
+=======
+    //напишите тут ваш код. step 1 - пункт 1
+    return null;
+  }
+
+  public static void printCats(Set<Cat> cats) {
+    // step 3 - пункт 3
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static class Cat {}

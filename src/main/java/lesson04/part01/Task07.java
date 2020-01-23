@@ -1,7 +1,10 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.ArrayList;
 
 /**
@@ -23,6 +26,7 @@ public class Task07 {
   private static ArrayList<String> strings;
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     int maximum = 0;
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     ArrayList<String> list = new ArrayList<String>();
@@ -39,5 +43,8 @@ public class Task07 {
     for (int i = 0; i < 5; i++)
       if (maximum == list.get(i).length())
         System.out.println(list.get(i));
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

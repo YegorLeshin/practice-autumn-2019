@@ -1,7 +1,10 @@
 package lesson04.part01;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 /**
  * 1. Создай список строк.
  * 2. Добавь в него 5 различных строк.
@@ -19,6 +22,7 @@ import java.util.ArrayList;
 public class Task06 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     ArrayList<String> list = new ArrayList<String>();
     for (int i = 0; i < 5; i++) {
       list.add("LEV");
@@ -29,5 +33,8 @@ public class Task06 {
     for (int i = 0; i < list.size(); i++) {
       System.out.println(list.get(i));
     }
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

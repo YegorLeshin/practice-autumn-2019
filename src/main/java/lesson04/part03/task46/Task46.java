@@ -20,6 +20,7 @@ package lesson04.part03.task46;
 public class Task46 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
 
 
     try {
@@ -27,6 +28,13 @@ public class Task46 {
     } catch (Exception1 e) {
 
     }
+=======
+    //напишите тут ваш код
+
+    method1();
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 
   }
 

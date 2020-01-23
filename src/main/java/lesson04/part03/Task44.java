@@ -17,11 +17,20 @@ package lesson04.part03;
 public class Task44 {
 
   public static void main(String[] args) {
+<<<<<<< HEAD
     try {
       int num = Integer.parseInt("XYZ");
       System.out.println(num);
     } catch (NumberFormatException e) {
       System.out.println(e);
     }
+=======
+    //напишите тут ваш код
+
+    int num = Integer.parseInt("XYZ");
+    System.out.println(num);
+
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

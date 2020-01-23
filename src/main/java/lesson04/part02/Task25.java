@@ -33,7 +33,11 @@ public class Task25 {
   }
 
   public static void printValues(Map<String, String> map) {
+<<<<<<< HEAD
     for (Map.Entry<String, String> pair: map.entrySet())
       System.out.println(pair.getValue());
+=======
+    //напишите тут ваш код
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

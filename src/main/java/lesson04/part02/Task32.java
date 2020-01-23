@@ -1,7 +1,10 @@
 package lesson04.part02;
 
+<<<<<<< HEAD
 import java.util.HashSet;
 import java.util.Iterator;
+=======
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
 import java.util.Set;
 
 /**
@@ -19,6 +22,7 @@ import java.util.Set;
 public class Task32 {
 
   public static Set<Integer> createSet() {
+<<<<<<< HEAD
     Set<Integer> list = new HashSet<Integer>();
 
     for (int i = 0; i < 20; i++)
@@ -45,5 +49,18 @@ public class Task32 {
 
     createSet();
     removeAllNumbersGreaterThan10(set);
+=======
+    // напишите тут ваш код
+    return null;
+  }
+
+  public static Set<Integer> removeAllNumbersGreaterThan10(Set<Integer> set) {
+    // напишите тут ваш код
+    return null;
+  }
+
+  public static void main(String[] args) {
+
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }

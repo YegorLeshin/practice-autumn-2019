@@ -23,6 +23,7 @@ import java.net.URISyntaxException;
 public class Task45 {
 
   public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
     try {
       method1();
 
@@ -33,6 +34,17 @@ public class Task45 {
   }
 
   public static void method1() throws NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException {
+=======
+    //напишите тут ваш код
+
+    method1();
+
+    //напишите тут ваш код
+  }
+
+  public static void method1()
+      throws NullPointerException, ArithmeticException, FileNotFoundException, URISyntaxException {
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
     int i = (int) (Math.random() * 4);
     if (i == 0) {
       throw new NullPointerException();

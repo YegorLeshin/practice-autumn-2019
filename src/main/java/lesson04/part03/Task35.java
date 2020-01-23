@@ -19,29 +19,45 @@ public class Task35 {
 
   public static StackTraceElement[] method1() {
     method2();
+<<<<<<< HEAD
     StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
 
     return stackTraceElements;
 
+=======
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static StackTraceElement[] method2() {
     method3();
+<<<<<<< HEAD
     StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
 
     return stackTraceElements;
 
+=======
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static StackTraceElement[] method3() {
     method4();
+<<<<<<< HEAD
     StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
 
     return stackTraceElements;
+=======
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 
   public static StackTraceElement[] method4() {
     method5();
+<<<<<<< HEAD
     StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
 
     return stackTraceElements;
@@ -51,5 +67,14 @@ public class Task35 {
     StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
 
     return stackTraceElements;
+=======
+    //напишите тут ваш код
+    return null;
+  }
+
+  public static StackTraceElement[] method5() {
+    //напишите тут ваш код
+    return null;
+>>>>>>> cf1e973b6e5e023208f8b3033a338052ef120d5e
   }
 }
